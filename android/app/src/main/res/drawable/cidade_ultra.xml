@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ============================================================
+         IMAGEM DA CIDADE
+         ============================================================ -->
+
+    <item>
+
+        <bitmap
+            android:src="@drawable/cidade_ultra_imagem"
+            android:gravity="fill" />
+
+    </item>
+
+</layer-list>

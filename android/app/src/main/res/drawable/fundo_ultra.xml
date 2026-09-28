@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ============================================================
+         FUNDO BASE
+         ============================================================ -->
+
+    <item>
+
+        <shape
+            android:shape="rectangle">
+
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#05070D"
+                android:centerColor="#0B101A"
+                android:endColor="#020307" />
+
+        </shape>
+
+    </item>
+
+    <!-- ============================================================
+         BRILHO VERMELHO SUPERIOR
+         ============================================================ -->
+
+    <item
+        android:top="-180dp"
+        android:bottom="300dp"
+        android:left="-120dp"
+        android:right="120dp">
+
+        <shape
+            android:shape="rectangle">
+
+            <gradient
+                android:type="radial"
+                android:gradientRadius="500dp"
+                android:centerColor="#55FF2020"
+                android:centerX="0.20"
+                android:centerY="0.10"
+                android:endColor="#00000000" />
+
+        </shape>
+
+    </item>
+
+    <!-- ============================================================
+         BRILHO VERMELHO INFERIOR
+         ============================================================ -->
+
+    <item
+        android:top="300dp"
+        android:bottom="-180dp"
+        android:left="120dp"
+        android:right="-120dp">
+
+        <shape
+            android:shape="rectangle">
+
+            <gradient
+                android:type="radial"
+                android:gradientRadius="450dp"
+                android:centerColor="#35C81010"
+                android:centerX="0.80"
+                android:centerY="0.90"
+                android:endColor="#00000000" />
+
+        </shape>
+
+    </item>
+
+    <!-- ============================================================
+         VINHETA ESCURA
+         ============================================================ -->
+
+    <item>
+
+        <shape
+            android:shape="rectangle">
+
+            <gradient
+                android:type="radial"
+                android:gradientRadius="900dp"
+                android:centerColor="#00000000"
+                android:endColor="#B8000000" />
+
+        </shape>
+
+    </item>
+
+</layer-list>
