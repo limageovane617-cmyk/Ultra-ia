@@ -1,5 +1,5 @@
 """
-Alex IA Ultra — Gerenciador de Vídeo
+Ultra IA — Gerenciador de Vídeo
 
 Motores:
 1. Wan 2.2 14B FP8 — R3GM
@@ -41,7 +41,7 @@ except Exception:
 # CONFIGURAÇÃO
 # ============================================================
 
-NOME_MODULO = "Alex IA Ultra — Gerenciador de Vídeo"
+NOME_MODULO = "Ultra IA — Gerenciador de Vídeo"
 
 DURACAO_PADRAO = 5.0
 
@@ -1351,7 +1351,7 @@ def gerar_magichour(
     )
 
     dados = {
-        "name": "Alex IA Ultra",
+        "name": "Ultra IA",
         "end_seconds": MAGIC_HOUR_DURACAO,
         "model": MAGIC_HOUR_MODELO,
         "resolution": MAGIC_HOUR_RESOLUCAO,

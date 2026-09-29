@@ -319,7 +319,7 @@ def mostrar_imagem(prompt):
         imagem,
         caption=(
             "🖼️ Imagem gerada pela "
-            "Alex IA Ultra"
+            "Ultra IA"
         ),
         use_container_width=True,
     )

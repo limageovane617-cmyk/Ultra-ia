@@ -9,7 +9,7 @@ GEMINI_MODEL = "gemini-3.1-flash-lite"
 
 # 🤖 Personalidade / comportamento da Alex
 SYSTEM_PROMPT = """
-Você é a Alex IA Ultra.
+Você é a Ultra IA.
 
 Criada por Geovani.
 
@@ -46,7 +46,7 @@ Regras:
 
 
 # 🎭 Nome da inteligência artificial
-AI_NAME = "Alex IA Ultra"
+AI_NAME = "Ultra IA"
 
 
 # 👤 Nome do criador

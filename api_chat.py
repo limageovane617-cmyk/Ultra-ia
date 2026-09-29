@@ -37,7 +37,7 @@ from gemini_bridge import criar_gemini_bridge
 # ============================================================
 
 app = FastAPI(
-    title="Alex IA Ultra API"
+    title="Ultra IA API"
 )
 
 # ============================================================
@@ -133,7 +133,7 @@ def ultra_ping(x_api_secret: Optional[str] = Header(default=None)):
     return {
         "success": True,
         "authenticated": True,
-        "service": "Alex IA Ultra API",
+        "service": "Ultra IA API",
         "connection": "Ponte → ULTRA",
     }
 
@@ -254,7 +254,7 @@ def criar_url_video(caminho_video):
 def inicio():
     return {
         "success": True,
-        "service": "Alex IA Ultra API",
+        "service": "Ultra IA API",
         "status": "online",
     }
 

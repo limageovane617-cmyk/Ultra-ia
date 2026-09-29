@@ -604,7 +604,7 @@ def mostrar_imagem(prompt):
 
         caption=(
             "🖼️ Imagem gerada pela "
-            "Alex IA Ultra"
+            "Ultra IA"
         ),
 
         use_container_width=True,
@@ -695,7 +695,7 @@ def executar_teste():
     )
 
     st.write(
-        "Alex IA Ultra utiliza dois "
+        "Ultra IA utiliza dois "
         "motores com fallback automático."
     )
 

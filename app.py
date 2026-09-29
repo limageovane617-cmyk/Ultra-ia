@@ -29,7 +29,7 @@ from ponte_alex import (
 # ============================================================
 
 st.set_page_config(
-    page_title="Alex IA Ultra",
+    page_title="Ultra IA",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="collapsed"

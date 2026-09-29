@@ -1330,7 +1330,7 @@ def internet_engine_v3(
     pergunta
 ):
     """
-    Núcleo independente de pesquisa do Alex IA Ultra.
+    Núcleo independente de pesquisa do Ultra IA.
 
     Fluxo:
 
