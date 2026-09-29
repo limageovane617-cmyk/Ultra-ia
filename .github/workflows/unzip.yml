@@ -1,5 +1,6 @@
 name: Extrair zip
 on:
+  workflow_dispatch:
   push:
     paths:
       - "ultra-ia-projeto-v2.zip"
