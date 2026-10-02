@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "ultra-ia-projeto-v2.zip"
+      - "ultra-ia-projeto-v3.zip"
 permissions:
   contents: write
 jobs:
@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          unzip -o ultra-ia-projeto-v2.zip
-          rm ultra-ia-projeto-v2.zip
+          unzip -o ultra-ia-projeto-v3.zip
+          rm ultra-ia-projeto-v3.zip
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -A
